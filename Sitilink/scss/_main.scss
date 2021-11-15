@@ -1,0 +1,138 @@
+.Heading_Level2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+//Actions
+.ActionsBlock {
+	display: flex;
+	padding-top: 40px;
+}
+.ActionImage_Box,.ActionsImage{
+	height: 100%;
+}
+.ActionImage_Box{
+	margin-right: 0;
+	margin-left: 30px;
+}
+//
+
+//Popular category
+.PopularCategoriesBlock {
+	padding-top: 30px;
+
+}
+.CategoriesBlock {
+	padding-top: 30px;
+	display: grid;
+	align-items: center;
+	grid-gap: 10px;
+}
+.CategoryBox {
+	//border: 1px outset white;
+	box-shadow: 0px 5px 25px rgba(30,31,33,.12);
+	word-wrap: break-word;
+	//height: calc(100%-40px);
+	.CategotyBox_Padding {
+		position: relative;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.CategoryBox_Container{
+		word-wrap: break-word;
+		text-align: center;
+	}
+	.CategoryBox_Link{
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		text-align: center;
+		color: black;
+	}
+	.CategoryBox_Container_Title {
+		word-wrap: break-word;
+		font-size: 16px;
+		text-decoration: none;
+	}
+}
+.CategoryBox:hover {
+	.CategoryBox_Container_Title {
+		color: rgb(255, 153, 0);;
+	}
+}
+//
+
+//MakeYourComputer
+.MakeYourComputer {
+	margin: 40px 0;
+	//grid-template-rows: auto;
+	grid-gap: 10px;
+	word-break: break-word;
+	.MainHeader_Catalog{
+		text-align: center;
+		max-width: 100%;
+		
+	}
+	.CatalogMenuText {
+		background: #f5f5f6;
+	}
+}
+.MakeYourComputer_TitleBox {
+	display: flex;
+	align-items:center;
+	background-color: #f5f5f6;
+	.MakeYourComputer_Title {
+		padding: 20px 30px;
+		.MakeYourComputer_TitleText {
+			font-size: 22px;
+			font-weight: bold;
+			white-space: unset;
+		}
+	}
+}
+.RedySetComputer_Box {
+	display: block;
+	background: #f5f5f6;
+	grid-column-start: 2;
+	grid-column-end: 5;
+	
+}
+.RedySetComputer_BoxPadding {
+	padding: 20px 0 20px 40px;
+	position: relative;
+	
+}
+.RedySetComputer_Title {
+	font-size: 18px;
+	font-weight: 600;
+}
+.RedySetComputer_SetsConfiguration {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-top: 10px;
+}
+.RedySetComputer_ChouseBox {
+	width: 50%;
+	margin-right: 0;
+}
+.RedySetComputer_Link_Text {
+	font-size: 15px;
+}
+.MakeComputer_Box {
+	background: #f5f5f6;
+	grid-column-start: 5;
+	grid-column-end: 5;
+	display: block;
+}
+.MakeComputer_BoxPaddong {
+	padding: 20px 20px 15px;
+}
+.MakeComputer_Title {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+//

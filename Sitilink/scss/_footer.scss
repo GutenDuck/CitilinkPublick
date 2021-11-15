@@ -1,0 +1,148 @@
+.Heading_Level3 {
+	font-size: 22px;
+}
+//Subcribe
+.Subscribe {
+	display: grid;
+	grid-template-rows: repeat(2,1fr);
+}
+.Subscribe_Block{
+	display: flex;
+	border-bottom: 1px solid #dfdfe1;
+	align-items: center;
+	padding: 30px 0;
+}
+.SubscribeText {
+	flex:2;
+}
+.Subscribe_InputBlock {
+	flex:3;
+	display: flex;
+	height: 50px;
+	align-items: center;
+}
+.Subscribe_Input,.Subscribe_PushText {
+	width: 60%;
+	margin-right: 20px;
+}
+
+.Subscribe_Input_InputBox {
+	height: 40px;
+	width: 100%;
+}
+.SubscribeButton {
+	display: flex;
+	height: 40px;
+	width: 150px;
+	max-width: 150px;
+	border: 1px solid;
+	border-color:#b3b3b7;
+	border-radius: 10px 10px;
+}
+.SubscribeButton_Button {
+	font-size: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	background: none;
+	color: #5d5d64;
+}
+.SubscribeButton:hover {
+	border-color:rgb(255, 153, 0);
+	.SubscribeButton_Button{
+		color: rgb(255, 153, 0);
+	}
+}
+.Subscribe_PushText {
+	font-size: 16px;
+	color: rgb(255, 153, 0);
+}
+//
+
+//Main Footer
+.FooterBody, .Footer_ContactButtonBlock  {
+	margin-top: 30px;
+}
+
+.FooterBody_Flex {
+	display: flex;
+}
+.Footer_Contact {
+	flex:0.7;
+}
+.Footer_Menu {
+	flex:2;
+}
+.Footer_Title{
+	margin-bottom: 30px;
+}
+.Footer_Contacts_AddresLink {
+	text-decoration: none;
+	color: #2274a5;
+}
+.Footer_Contacts_AddresLink:hover {
+	text-decoration: none;
+	color: rgb(255, 153, 0);
+}
+.Footer_Contact {
+	.MainHeader_CityBlock {
+		margin-top: 30px;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		button{
+			font-size: 18px;
+			background: none;
+			cursor: pointer;
+			margin-left: 30px;
+		}
+		.MainHeader_Text {
+			font-size: 18px;
+		}
+	}
+}
+.Footer_Menu {
+	flex-direction: row;
+	justify-content: space-between;
+	flex:1 1;
+	ul{
+		list-style-type: none;
+		li{
+			margin-bottom: 10px;
+		}
+	}
+	.Link{
+		font-size: 15px;
+		color:#151528;
+		font-weight: 500;
+	}
+}
+.Footer_Menu_List_Link_Disable {
+	opacity: .6
+	li{
+		font-weight: 0;
+	}
+}
+.Footer_Menu_SubList {
+	margin-left: 10px;
+}
+//
+
+//Copyright
+.FooterCopyright {
+	display: flex;
+	padding-top: 20px;
+	border-top: 1px solid #b3b3b7;
+	justify-content: space-between;
+	
+}
+.FooterCopyright_Citilink {
+	font-size: 13px;
+}
+.FooterCopyright_Gdpr{
+
+	.Link{
+		text-align: left;
+		font-size: 13px;
+	}
+}
+//

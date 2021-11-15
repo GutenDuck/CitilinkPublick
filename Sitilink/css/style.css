@@ -1,0 +1,644 @@
+@media screen and (min-width: 1024px) {
+  .MainHeader_MenuBlock {
+    display: flex;
+    margin: 0 0 0 50px;
+  }
+  .MainLayaot, .FooterMargin {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+  .ActionsBlock {
+    height: 350px;
+  }
+  .MainHeader_MiniHeader {
+    display: none;
+  }
+  .MainHeader_SearchBlock {
+    width: 65%;
+  }
+  .SwapActionsImage_Link, .SwapActionsImage {
+    width: 100%;
+    height: 100%;
+  }
+  .CategoriesBlock {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .MakeYourComputer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .Footer_Menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .MainLayaot, .FooterMargin {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .MainHeader_MiniHeader {
+    display: none;
+  }
+  .MainHeader_SearchBlock {
+    width: 60%;
+  }
+  .SwapActionsImage_Link, .SwapActionsImage {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .MainLayaot, .FooterMargin {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .MainHeader_MiniHeader {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .MainHeader_BottomHeader.Container, .MainHeader_TopHeader.Container, .ActionImage_Box, .Footer_Menu {
+    display: none;
+  }
+  .MainHeader_MiniHeader {
+    margin-top: 20px;
+    display: block;
+  }
+  .MainHeader_MiniHeader .MainHeader_LogoBlock img {
+    max-width: 150px;
+  }
+  .SwapActionsImage_Link, .SwapActionsImage, .CopyrightImage {
+    height: 100%;
+  }
+  .CategoriesBlock {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .MakeYourComputer {
+    display: flex;
+    flex-direction: column;
+  }
+  .MakeComputer_Box .MainHeader_Catalog {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .SwapActionsImage_Link, .SwapActionsImage, .ActionsBlock {
+    height: 210px;
+  }
+  .CopyrightImage {
+    height: 20px;
+    width: 100%;
+  }
+}
+
+.MainHeader {
+  width: 100%;
+  background-color: #fff;
+}
+
+.MainHeader_Text {
+  font-size: 12px;
+  position: relative;
+}
+
+.MainHeader_MenuBlock {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.MainHeader_Text.Link:not(:last-child) {
+  font-size: 12px;
+  margin-right: 30px;
+}
+
+.Container {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  position: relative;
+  align-items: center;
+  height: 80px;
+}
+
+.MainHeader_LogoBlock img {
+  vertical-align: middle;
+  min-width: 150px;
+  max-width: 195px;
+}
+
+.MainHeader_InfoBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  grid-column: auto/span 4;
+  min-width: 0;
+}
+
+.MainHeader_CityBlock {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.MainHeader_CityBlock button {
+  background: none;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.MainHeader_BottomHeader {
+  justify-content: normal;
+  align-items: flex-end;
+}
+
+.MainHeader_Catalog {
+  height: 100%;
+  max-width: 150px;
+  border: 1px solid;
+  border-color: #ff9900;
+  border-radius: 10px 10px;
+}
+
+.MainHeader_Catalog:hover {
+  border-color: #ff9900;
+  background-color: #ff9900;
+}
+
+.MainHeader_Catalog:hover .CatalogMenuText {
+  color: white;
+  background-color: #ff9900;
+}
+
+.MainHeader_BottomHeader_CatalogBlock {
+  height: 45%;
+  grid-column: auto/span 1;
+  min-width: 0;
+  text-align: center;
+}
+
+.CatalogMenuText {
+  height: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  color: #ff8800;
+}
+
+.CatalogLink {
+  height: inherit;
+  width: inherit;
+}
+
+.MainHeader_Text.Link {
+  font-size: 12px;
+  background: none;
+}
+
+.MainHeader_BottomHeader_ActionBlock, .MainHeader_MenuBlock, .MainHeader_SearchBlock {
+  display: flex;
+}
+
+.MainHeader_BottomHeader_ActionBlock {
+  grid-column: auto/span 4;
+  align-items: flex-end;
+  min-width: 0;
+}
+
+.MainHeader_SearchBlock {
+  position: relative;
+  flex-direction: row;
+  font-size: 16px;
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+.InputBox_Input {
+  width: 100%;
+  border-bottom: 1px solid #dfdfe1;
+}
+
+.InputBox_Icon {
+  position: absolute;
+  right: 0;
+}
+
+.InputBox_Icon .MainHeader_Text.Link {
+  margin-right: 0px;
+}
+
+.MainHeader_BottomHeader.Container {
+  align-items: center;
+}
+
+.MainHeader_BottomHeader.Container .MainHeader_MenuBlock {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.MainHeader_BottomHeader.Container .MainHeader_MenuBlock .MenuBlock_IconText {
+  font-size: 14px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.MainHeader_BottomHeader.Container .MainHeader_MenuBlock .MenuBlock_IconText.Last-Child {
+  margin-right: 0px;
+}
+
+.MiniHeaderContainer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  position: relative;
+  align-items: center;
+}
+
+.MiniHeaderContainer .MiniHeader_Button {
+  background-color: white;
+}
+
+.MainHeader_MiniHeader .MainHeader_LogoBlock {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MiniHeader_SearchBlock {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.MiniHeader_SearchBlock .MainHeader_Form {
+  margin-right: 30px;
+}
+
+.MiniHeader_SearchBlock .InbutBox_Icon {
+  position: relative;
+}
+
+.Heading_Level2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ActionsBlock {
+  display: flex;
+  padding-top: 40px;
+}
+
+.ActionImage_Box, .ActionsImage {
+  height: 100%;
+}
+
+.ActionImage_Box {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.PopularCategoriesBlock {
+  padding-top: 30px;
+}
+
+.CategoriesBlock {
+  padding-top: 30px;
+  display: grid;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.CategoryBox {
+  box-shadow: 0px 5px 25px rgba(30, 31, 33, 0.12);
+  word-wrap: break-word;
+}
+
+.CategoryBox .CategotyBox_Padding {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CategoryBox .CategoryBox_Container {
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.CategoryBox .CategoryBox_Link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.CategoryBox .CategoryBox_Container_Title {
+  word-wrap: break-word;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.CategoryBox:hover .CategoryBox_Container_Title {
+  color: #ff9900;
+}
+
+.MakeYourComputer {
+  margin: 40px 0;
+  grid-gap: 10px;
+  word-break: break-word;
+}
+
+.MakeYourComputer .MainHeader_Catalog {
+  text-align: center;
+  max-width: 100%;
+}
+
+.MakeYourComputer .CatalogMenuText {
+  background: #f5f5f6;
+}
+
+.MakeYourComputer_TitleBox {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f6;
+}
+
+.MakeYourComputer_TitleBox .MakeYourComputer_Title {
+  padding: 20px 30px;
+}
+
+.MakeYourComputer_TitleBox .MakeYourComputer_Title .MakeYourComputer_TitleText {
+  font-size: 22px;
+  font-weight: bold;
+  white-space: unset;
+}
+
+.RedySetComputer_Box {
+  display: block;
+  background: #f5f5f6;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.RedySetComputer_BoxPadding {
+  padding: 20px 0 20px 40px;
+  position: relative;
+}
+
+.RedySetComputer_Title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.RedySetComputer_SetsConfiguration {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+}
+
+.RedySetComputer_ChouseBox {
+  width: 50%;
+  margin-right: 0;
+}
+
+.RedySetComputer_Link_Text {
+  font-size: 15px;
+}
+
+.MakeComputer_Box {
+  background: #f5f5f6;
+  grid-column-start: 5;
+  grid-column-end: 5;
+  display: block;
+}
+
+.MakeComputer_BoxPaddong {
+  padding: 20px 20px 15px;
+}
+
+.MakeComputer_Title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Heading_Level3 {
+  font-size: 22px;
+}
+
+.Subscribe {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.Subscribe_Block {
+  display: flex;
+  border-bottom: 1px solid #dfdfe1;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.SubscribeText {
+  flex: 2;
+}
+
+.Subscribe_InputBlock {
+  flex: 3;
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+.Subscribe_Input, .Subscribe_PushText {
+  width: 60%;
+  margin-right: 20px;
+}
+
+.Subscribe_Input_InputBox {
+  height: 40px;
+  width: 100%;
+}
+
+.SubscribeButton {
+  display: flex;
+  height: 40px;
+  width: 150px;
+  max-width: 150px;
+  border: 1px solid;
+  border-color: #b3b3b7;
+  border-radius: 10px 10px;
+}
+
+.SubscribeButton_Button {
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  background: none;
+  color: #5d5d64;
+}
+
+.SubscribeButton:hover {
+  border-color: #ff9900;
+}
+
+.SubscribeButton:hover .SubscribeButton_Button {
+  color: #ff9900;
+}
+
+.Subscribe_PushText {
+  font-size: 16px;
+  color: #ff9900;
+}
+
+.FooterBody, .Footer_ContactButtonBlock {
+  margin-top: 30px;
+}
+
+.FooterBody_Flex {
+  display: flex;
+}
+
+.Footer_Contact {
+  flex: 0.7;
+}
+
+.Footer_Menu {
+  flex: 2;
+}
+
+.Footer_Title {
+  margin-bottom: 30px;
+}
+
+.Footer_Contacts_AddresLink {
+  text-decoration: none;
+  color: #2274a5;
+}
+
+.Footer_Contacts_AddresLink:hover {
+  text-decoration: none;
+  color: #ff9900;
+}
+
+.Footer_Contact .MainHeader_CityBlock {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Footer_Contact .MainHeader_CityBlock button {
+  font-size: 18px;
+  background: none;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.Footer_Contact .MainHeader_CityBlock .MainHeader_Text {
+  font-size: 18px;
+}
+
+.Footer_Menu {
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1 1;
+}
+
+.Footer_Menu ul {
+  list-style-type: none;
+}
+
+.Footer_Menu ul li {
+  margin-bottom: 10px;
+}
+
+.Footer_Menu .Link {
+  font-size: 15px;
+  color: #151528;
+  font-weight: 500;
+}
+
+.Footer_Menu_List_Link_Disable {
+  opacity: 0.6 li;
+}
+
+.Footer_Menu_SubList {
+  margin-left: 10px;
+}
+
+.FooterCopyright {
+  display: flex;
+  padding-top: 20px;
+  border-top: 1px solid #b3b3b7;
+  justify-content: space-between;
+}
+
+.FooterCopyright_Citilink {
+  font-size: 13px;
+}
+
+.FooterCopyright_Gdpr .Link {
+  text-align: left;
+  font-size: 13px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-size: 100%;
+}
+
+body, html {
+  font-family: PTRootUI-Regular, sans-serif;
+  font-size: 18px;
+  line-height: 1.44;
+  color: black;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+footer {
+  background: #f5f5f6;
+}
+
+.MainLayaot {
+  min-height: 100vh;
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Link {
+  outline: none;
+  cursor: pointer;
+  transition: color .1s ease;
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.Link:hover {
+  color: #ff9900;
+}
+
+.page-footer {
+  background-color: blue;
+}
